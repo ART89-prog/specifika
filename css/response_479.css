@@ -1,0 +1,240 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 12px 0;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        width: 116px;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 18px;
+    }
+
+
+    header .contacts .time
+    {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 650px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 34px;
+        line-height: 102%;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*--------------------
+        Structure info
+    --------------------*/
+    .structure_info .schema
+    {
+        width: 100%;
+        margin-bottom: -8px;
+        margin-left: 0;
+    }
+
+    .structure_info .schema .item
+    {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+
+
+
+
+    /*------------------
+        Need consult
+    ------------------*/
+    .need_consult .data
+    {
+        padding: 28px;
+    }
+
+    .need_consult .data .title
+    {
+        font-size: 22px;
+    }
+
+    .need_consult .data.reverse .img,
+    .need_consult .data .img
+    {
+        margin-bottom: -28px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .tz .title
+    {
+        font-size: 21px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .data
+    {
+        padding: 32px 28px;
+    }
+
+    .order_block .data .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo,
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .location
+    {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 18px;
+    }
+
+
+    footer .contacts .time
+    {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+
+    footer .contacts .callback_btn
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 26px;
+        line-height: calc(100% + 4px);
+
+        margin-bottom: 20px;
+    }
+}

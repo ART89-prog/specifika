@@ -1,0 +1,566 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 28px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 16px 0;
+    }
+
+
+    header .desc
+    {
+        display: none;
+    }
+
+
+    header .contacts .callback_btn
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 672px;
+        padding-top: 116px;
+        padding-bottom: 116px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 40px;
+        line-height: 102%;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 15px;
+
+        width: 100%;
+    }
+
+
+    .first_section .btns
+    {
+        width: 260px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .first_section .btns > *
+    {
+        width: 100%;
+    }
+
+    .first_section .btns > * + *
+    {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .first_section .btns .btn
+    {
+        width: 100%;
+        height: 52px;
+    }
+
+
+
+    /*--------------------
+        Structure info
+    --------------------*/
+    .structure_info
+    {
+        margin-top: -48px;
+        padding-bottom: 60px;
+    }
+
+
+    .structure_info .items
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+    .structure_info .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .structure_info .schema
+    {
+        margin-top: 44px;
+        margin-bottom: -16px;
+    }
+
+    .structure_info .schema .item
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .structure_info .schema .item .thumb
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+
+    .structure_info .schema .item .name
+    {
+        width: calc(100% - 88px);
+        margin-left: auto;
+    }
+
+
+    .structure_info .schema .item br
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Frame variants
+    --------------------*/
+    .frame_variants
+    {
+        padding: 56px 0 80px;
+    }
+
+
+    .frame_variants .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -52px;
+        padding: 0 24px 68px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .frame_variants .row::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .frame_variants .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .frame_variants .item
+    {
+        display: inline-block;
+
+        width: 240px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .frame_variants .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------------
+        Sewing variants
+    ---------------------*/
+    .sewing_variants
+    {
+        padding-top: 60px;
+    }
+
+
+    .sewing_variants .slide
+    {
+        height: auto;
+    }
+
+
+
+    /*------------------
+        Need consult
+    ------------------*/
+    .need_consult .data.reverse .info.big_w,
+    .need_consult .data.reverse .info,
+    .need_consult .data .info
+    {
+        width: 100%;
+    }
+
+
+    .need_consult .data .title
+    {
+        font-size: 24px;
+    }
+
+
+    .need_consult .data.reverse .img,
+    .need_consult .data .img
+    {
+        position: relative;
+        left: 0;
+
+        max-width: 100%;
+        margin-top: 12px;
+        margin-right: auto;
+        margin-bottom: -40px;
+        margin-left: auto;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .why .list .item .thumb
+    {
+        width: 312px;
+    }
+
+
+    .why .list .item .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*-------------
+        Options
+    -------------*/
+    .options .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -68px;
+        padding: 48px 24px 68px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .options .row::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .options .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .options .option
+    {
+        display: inline-block;
+
+        width: 220px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .options .option + .option
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .tz .image
+    {
+        width: 100%;
+        margin-bottom: -12px;
+    }
+
+
+    .services .tz .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio
+    {
+        margin-top: 28px;
+        padding-bottom: 60px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products
+    {
+        margin-top: 80px;
+    }
+
+
+    .products .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -68px;
+        padding: 0 24px 68px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .products .row::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .products .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .products .product
+    {
+        display: inline-block;
+
+        width: 220px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .products .product + .product
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .data .title
+    {
+        font-size: 24px;
+        line-height: calc(100% + 2px);
+    }
+
+
+    .order_block .data .form .line
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Instagram
+    ---------------*/
+    .instagram .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: -68px -24px -68px;
+        padding: 68px 24px 68px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .instagram .row::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .instagram .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .instagram .item
+    {
+        display: inline-block;
+
+        width: 172px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .instagram .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo,
+    footer .logo img
+    {
+        width: 124px;
+    }
+
+
+    footer .desc
+    {
+        display: none;
+    }
+
+
+    footer .location
+    {
+        margin-bottom: 20px;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

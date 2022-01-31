@@ -1,0 +1,664 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo,
+    header .logo img
+    {
+        width: 140px;
+    }
+
+
+    header .desc
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-left: 16px;
+    }
+
+
+    header .contacts .callback_btn
+    {
+        width: 164px;
+        height: 44px;
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .title
+    {
+        padding-bottom: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 52px;
+        padding: 12px 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 740px;
+        padding-top: 124px;
+        padding-bottom: 124px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 45px;
+        line-height: 102%;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+
+        width: 552px;
+        margin: 24px auto 0;
+    }
+
+
+
+    /*--------------------
+        Structure info
+    --------------------*/
+    .structure_info .schema
+    {
+        display: flex;
+
+        width: calc(100% + 24px);
+        height: auto;
+        margin-top: 52px;
+        margin-bottom: -12px;
+        margin-left: -24px;
+        padding: 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .structure_info .schema .img
+    {
+        display: none;
+    }
+
+
+    .structure_info .schema .item
+    {
+        position: relative;
+
+        display: flex;
+
+        width: calc(50% - 24px);
+        margin: 0;
+        margin-bottom: 12px;
+        margin-left: 24px;
+
+        text-align: left !important;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        inset: 0 !important;
+    }
+
+    .structure_info .schema .item .thumb
+    {
+        width: 92px;
+        height: 92px;
+        margin: 0;
+
+        order: 1;
+    }
+
+    .structure_info .schema .item .name
+    {
+        width: calc(100% - 112px);
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 20px;
+
+        align-self: center;
+        order: 2;
+    }
+
+    .structure_info .schema .item .shadow
+    {
+        display: none;
+    }
+
+
+    /*--------------------
+        Frame variants
+    --------------------*/
+    .frame_variants
+    {
+        padding: 64px 0 84px;
+    }
+
+
+    .frame_variants .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding: 24px 20px 20px 20px;
+    }
+
+    .frame_variants .item .thumb
+    {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------------------
+        Sewing variants
+    ---------------------*/
+    .sewing_variants
+    {
+        padding-top: 64px;
+    }
+
+
+    .sewing_variants .thumbs
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 40px;
+        padding: 5px 24px 0;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .sewing_variants .thumbs::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .sewing_variants .thumbs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+    .sewing_variants .thumbs button
+    {
+        display: inline-block;
+
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .sewing_variants .thumbs button + button
+    {
+        margin-left: 32px;
+    }
+
+    .sewing_variants .thumbs button .thumb
+    {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto 12px;
+    }
+
+
+    .sewing_variants .slide
+    {
+        height: 224px;
+    }
+
+
+    .sewing_variants .bg
+    {
+        height: 560px;
+    }
+
+
+
+    /*------------------
+        Need consult
+    ------------------*/
+    .need_consult
+    {
+        margin-top: 80px;
+    }
+
+
+    .need_consult .bg
+    {
+        height: 620px;
+    }
+
+
+    .need_consult .data .title
+    {
+        font-size: 25px;
+    }
+
+    .need_consult .data .desc
+    {
+        font-size: 13px;
+    }
+
+
+    .need_consult .data.reverse .info.big_w,
+    .need_consult .data.reverse .info,
+    .need_consult .data .info
+    {
+        width: calc(100% - 344px);
+    }
+
+
+    .need_consult .data .img
+    {
+        right: 24px;
+
+        width: 344px;
+    }
+
+    .need_consult .data.reverse .img
+    {
+        left: 24px;
+
+        width: 344px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why .list > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .why .list .item .thumb
+    {
+        width: 100%;
+
+        order: 1;
+    }
+
+    .why .list .item .thumb img
+    {
+        margin: 0;
+    }
+
+
+    .why .list .item .info,
+    .why .list .item:nth-child(even) .info,
+    .why .list .item .info.big
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+
+        order: 2;
+    }
+
+
+
+    /*-------------
+        Options
+    -------------*/
+    .options
+    {
+        margin-top: 64px;
+    }
+
+
+    .options .option
+    {
+        font-size: 14px;
+
+        padding: 1px 20px 24px;
+    }
+
+    .options .option br
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-top: 80px;
+    }
+
+
+    .services .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -40px;
+        padding: 0 24px 40px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .services .row::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .services .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .services .row > *
+    {
+        display: inline-block;
+
+        width: 240px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .services .row > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .services .tz .image
+    {
+        width: calc(100% - 364px);
+    }
+
+
+    .services .tz .info
+    {
+        width: 364px;
+    }
+
+    .services .tz .title
+    {
+        font-size: 24px;
+    }
+
+    .services .tz .desc
+    {
+        font-size: 14px;
+        line-height: 144%;
+
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio
+    {
+        margin-top: 40px;
+        padding-bottom: 72px;
+    }
+
+
+    .portfolio .bg
+    {
+        max-height: 100%;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-top: 64px;
+    }
+
+
+    .steps .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -40px;
+        padding: 0 24px 40px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .steps .row::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .steps .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .steps .step
+    {
+        display: inline-block;
+
+        width: 200px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .steps .step + .step
+    {
+        margin-left: 28px;
+    }
+
+
+    .steps .row .sep
+    {
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product
+    {
+        font-size: 14px;
+
+        padding: 20px;
+    }
+
+
+    .products .product .thumb
+    {
+        height: 112px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        margin-top: 92px;
+    }
+
+
+    .order_block .data
+    {
+        padding: 40px 52px;
+    }
+
+    .order_block .data .title
+    {
+        font-size: 25px;
+    }
+
+
+    .order_block .data .form .line
+    {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .order_block .data .form .submit
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .order_block .data .form .agree
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        margin-bottom: 20px;
+    }
+
+
+    footer .desc
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        display: block;
+
+        width: calc(100% - 160px);
+        margin-bottom: 20px;
+    }
+
+
+    footer .location
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

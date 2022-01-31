@@ -1,0 +1,798 @@
+@media print, (max-width: 1187px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        width: 152px;
+    }
+
+
+    header .desc
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+    header .location
+    {
+        display: none;
+    }
+
+    header .location .icon
+    {
+        width: 48px;
+        height: 48px;
+        margin-right: 12px;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 19px;
+    }
+
+    header .contacts .time
+    {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+    header .contacts .callback_btn
+    {
+        width: 172px;
+        height: 48px;
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+    .block_head .title
+    {
+        line-height: calc(100% + 6px);
+
+        padding-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .form .input
+    {
+        font-size: 16px;
+
+        height: 56px;
+        padding: 0 23px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 56px;
+        padding: 12px 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 824px;
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 52px;
+        line-height: 102%;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 17px;
+        line-height: 144%;
+
+        width: 580px;
+        margin: 24px auto 0;
+    }
+
+
+    .first_section .btns > * + *
+    {
+        margin-left: 24px;
+    }
+
+    .first_section .btns .btn
+    {
+        width: 260px;
+        height: 56px;
+        padding: 12px 20px;
+    }
+
+
+
+    /*--------------------
+        Structure info
+    --------------------*/
+    .structure_info
+    {
+        margin-top: -56px;
+        padding-bottom: 40px;
+    }
+
+
+    .structure_info .items
+    {
+        font-size: 14px;
+        line-height: 144%;
+    }
+
+    .structure_info .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+    .structure_info .items > *:before
+    {
+        top: 0;
+    }
+
+
+    .structure_info .schema
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------------
+        Frame variants
+    --------------------*/
+    .frame_variants
+    {
+        padding: 68px 0 88px;
+    }
+
+
+    .frame_variants .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .frame_variants .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .frame_variants .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        padding: 28px 24px 24px 24px;
+    }
+
+    .frame_variants .item .thumb
+    {
+        height: 124px;
+        margin-bottom: 24px;
+    }
+
+    .frame_variants .item .name
+    {
+        padding-top: 16px;
+    }
+
+
+
+    /*---------------------
+        Sewing variants
+    ---------------------*/
+    .sewing_variants
+    {
+        padding-top: 68px;
+    }
+
+
+    .sewing_variants .bg
+    {
+        height: 720px;
+    }
+
+
+    .sewing_variants .thumbs
+    {
+        margin-bottom: 40px;
+    }
+
+    .sewing_variants .thumbs button .thumb
+    {
+        width: 88px;
+        height: 88px;
+        margin: 0 auto 12px;
+    }
+
+
+    .sewing_variants .slide
+    {
+        height: 324px;
+    }
+
+
+
+    /*------------------
+        Need consult
+    ------------------*/
+    .need_consult
+    {
+        margin-top: 100px;
+    }
+
+
+    .need_consult .data
+    {
+        padding: 40px;
+    }
+
+
+    .need_consult .data .title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 6px);
+    }
+
+
+    .need_consult .data .desc
+    {
+        font-size: 14px;
+        line-height: 144%;
+
+        margin-top: 16px;
+    }
+
+
+    .need_consult .data .btn
+    {
+        width: 260px;
+        height: 56px;
+        padding: 12px 20px;
+    }
+
+
+    .need_consult .data .img
+    {
+        right: 80px;
+    }
+
+
+    .need_consult .data.reverse .info
+    {
+        margin-right: 0;
+    }
+
+    .need_consult .data.reverse .info.big_w
+    {
+        width: 452px;
+        margin-right: 0;
+    }
+
+    .need_consult .data.reverse .img
+    {
+        left: 40px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        margin-top: 92px;
+        padding-bottom: 72px;
+    }
+
+
+    .why .list > * + *
+    {
+        margin-top: 60px;
+    }
+
+
+    .why .list .item .thumb
+    {
+        width: 392px;
+    }
+
+
+    .why .list .item .info
+    {
+        width: calc(100% - 424px);
+        max-width: calc(100% - 424px);
+        margin-left: 32px;
+    }
+
+
+    .why .list .item .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        min-height: 28px;
+        padding-left: 44px;
+    }
+
+    .why .list .item .name:before
+    {
+        font-size: 14px;
+        line-height: 29px;
+
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .why .list .item .desc
+    {
+        line-height: 144%;
+
+        margin-top: 16px;
+    }
+
+
+    .why .list .item:nth-child(even) .info
+    {
+        width: calc(100% - 416px);
+    }
+
+
+
+    /*-------------
+        Options
+    -------------*/
+    .options
+    {
+        margin-top: 72px;
+        padding-bottom: 24px;
+    }
+
+
+    .options .row
+    {
+        margin-bottom: -112px;
+        margin-left: -24px;
+        padding-top: 48px;
+    }
+
+    .options .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 112px;
+        margin-left: 24px;
+    }
+
+
+    .options .option
+    {
+        font-size: 15px;
+        line-height: 144%;
+
+        padding: 1px 24px 28px;
+    }
+
+    .options .option .icon
+    {
+        width: 80px;
+        height: 80px;
+        margin: -48px auto 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-top: 92px;
+    }
+
+
+    .services .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .services .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .services .service
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .services .tz
+    {
+        margin-top: 64px;
+    }
+
+
+    .services .tz .image
+    {
+        width: calc(100% - 464px);
+    }
+
+
+    .services .tz .info
+    {
+        width: 464px;
+    }
+
+    .services .tz .title
+    {
+        font-size: 28px;
+    }
+
+    .services .tz .desc
+    {
+        font-size: 15px;
+        line-height: 144%;
+
+        width: 392px;
+        margin-top: 16px;
+    }
+
+    .services .tz .btn
+    {
+        width: 260px;
+        height: 56px;
+        padding: 12px 20px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio
+    {
+        margin-top: 20px;
+        padding-bottom: 72px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-top: 72px;
+    }
+
+
+    .steps .step
+    {
+        line-height: 144%;
+
+        width: calc(20% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .steps .step .icon
+    {
+        width: 112px;
+        height: 112px;
+        margin: 0 auto 20px;
+    }
+
+    .steps .step .icon:before
+    {
+        font-size: 14px;
+        line-height: 29px;
+
+        width: 28px;
+        height: 28px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products
+    {
+        margin-top: 92px;
+    }
+
+
+    .products .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .products .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .products .product
+    {
+        font-size: 15px;
+        line-height: 144%;
+
+        padding: 24px;
+    }
+
+    .products .product .thumb
+    {
+        height: 140px;
+        margin-bottom: 24px;
+    }
+
+    .products .product .name
+    {
+        padding-top: 15px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        margin-top: 112px;
+    }
+
+
+    .order_block .data
+    {
+        padding: 40px 64px;
+    }
+
+
+    .order_block .data .title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 6px);
+
+        margin-bottom: 24px;
+    }
+
+
+    .order_block .data .form .line
+    {
+        width: calc((100% - 308px) / 2);
+    }
+
+    .order_block .data .form .submit
+    {
+        width: 260px;
+    }
+
+
+
+    /*---------------
+        Instagram
+    ---------------*/
+    .instagram
+    {
+        margin-top: 92px;
+    }
+
+
+    .instagram .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .instagram .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-top: 72px;
+        padding: 32px 0;
+    }
+
+
+    footer .logo,
+    footer .logo img
+    {
+        width: 140px;
+    }
+
+
+    footer .desc
+    {
+        display: none;
+    }
+
+
+    footer .location
+    {
+        margin-left: auto;
+    }
+
+    footer .location .icon
+    {
+        width: 48px;
+        height: 48px;
+        margin-right: 12px;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 19px;
+    }
+
+    footer .contacts .time
+    {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+    footer .contacts .callback_btn
+    {
+        width: 172px;
+        height: 48px;
+        margin-left: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 440px;
+        max-width: 100%;
+        padding: 44px 64px 52px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 6px);
+
+        margin-bottom: 24px;
+    }
+}
