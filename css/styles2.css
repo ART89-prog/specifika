@@ -207,7 +207,6 @@
     left: 0;
     width: 100%;
     min-height: 914px;
-    height: 100%;
     background-repeat: no-repeat;
     background-position: 50% 100%;
     background-size: cover;
@@ -552,7 +551,17 @@
     .addition_item-img {
         height: 270px;
     }
-   
+    .sliding-gates .sliding-gates_top .block_head {
+        text-align: center;
+    }
+    .sliding-gates .block_head .desc:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sliding-gates .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
   
 
 
